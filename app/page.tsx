@@ -166,7 +166,7 @@ const handleCloseModal = () => {
     <img
   src="/Meta2.png"
   alt="Meta Logo"
-  className="h-10 w-auto mt-3"
+  className="h-6 sm:h-10 w-auto mt-1 sm:mt-3"
 />
   </div>
 </h1>
