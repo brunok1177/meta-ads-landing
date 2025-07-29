@@ -458,7 +458,7 @@ const handleCloseModal = () => {
       }
     }
   }}
-  className="fixed bottom-8 sm:bottom-6 right-16 z-50 animate-bounce"
+  className="fixed bottom-12 sm:bottom-8 right-16 z-50 animate-bounce"
 >
    <div className="bg-white/40 rounded-full p-3 sm:p-2 hover:bg-white/60 transition">
     <svg
