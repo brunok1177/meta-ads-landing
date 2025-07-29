@@ -196,23 +196,23 @@ const handleCloseModal = () => {
 
       {/* Stats Section */}
       <section id="section-2" className="py-16 bg-transparent backdrop-blur-sm">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="text-center">
-              <div className="text-5xl font-bold text-white mb-2">97%</div>
-              <div className="text-blue-200">Campañas Rentables</div>
-            </div>
-            <div className="text-center">
-              <div className="text-5xl font-bold text-white mb-2">x4</div>
-              <div className="text-blue-200">ROAS promedio</div>
-            </div>
-            <div className="text-center">
-              <div className="text-5xl font-bold text-white mb-2">+10</div>
-              <div className="text-blue-200">Clientes Actualmente</div>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="container mx-auto px-4">
+    <div className="grid grid-cols-3 md:grid-cols-3 gap-4 md:gap-8 max-w-4xl mx-auto">
+      <div className="text-center">
+        <div className="text-2xl md:text-5xl font-bold text-white mb-2">97%</div>
+        <div className="text-blue-200 text-xs md:text-base">Campañas Rentables</div>
+      </div>
+      <div className="text-center">
+        <div className="text-2xl md:text-5xl font-bold text-white mb-2">x4</div>
+        <div className="text-blue-200 text-xs md:text-base">ROAS promedio</div>
+      </div>
+      <div className="text-center">
+        <div className="text-2xl md:text-5xl font-bold text-white mb-2">+10</div>
+        <div className="text-blue-200 text-xs md:text-base">Clientes Actualmente</div>
+      </div>
+    </div>
+  </div>
+</section>
 
     {/* Clients Section */}
 <section id="clientes" className="py-24">
