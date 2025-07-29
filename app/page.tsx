@@ -152,49 +152,47 @@ const handleCloseModal = () => {
 
 
       {/* Hero Section */}
-<section id="section-1" className="py-20 lg:py-32">
-  <div className="container mx-auto px-4">
-    <div className="max-w-4xl mx-auto text-center">
-      <Badge className="mb-4 text-base lg:text-lg bg-blue-700/50 text-blue-100 border-blue-600">
-        Especialista en Publicidad
-      </Badge>
+      <section id="section-1" className="py-20 lg:py-32">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <Badge className="mb-6 bg-blue-700/50 text-blue-100 border-blue-600 text-lg">
+              Especialista en Publicidad
+            </Badge>
 
-      <h1 className="text-3xl lg:text-6xl font-bold text-white mb-7 leading-tight text-center">
-        Multiplica tus ventas
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-2 lg:gap-4 mt-3">
-          <span className="text-3xl lg:text-6xl font-bold text-blue-300">con Meta Ads</span>
-          <img
-            src="/Meta2.png"
-            alt="Meta Logo"
-            className="h-7 w-auto lg:h-10 mt-1 lg:mt-0"
-          />
-        </div>
-      </h1>
-
-      <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-        Publicidad estratégica que genera resultados. Más leads, más ventas, más crecimiento para tu negocio.
-      </p>
-
-      <div className="flex flex-col sm:flex-row gap-4 justify-center">
-        <Button size="lg" className="bg-white text-blue-900 hover:bg-blue-50 text-lg px-8" asChild>
-          <Link href="https://wa.me/5491123400821" target="_blank" rel="noopener noreferrer">
-            Contactame
-          </Link>
-        </Button>
-
-        <Button
-          size="lg"
-          variant="outline"
-          className="border-blue-300 text-blue-100 hover:bg-blue-800/50 text-lg px-8 bg-transparent"
-          onClick={() => scrollToSection("clientes")}
-        >
-          Ver Casos de Éxito
-        </Button>
-      </div>
-    </div>
+            <h1 className="text-4xl lg:text-6xl font-bold text-white mb-7 leading-tight text-center">
+  Multiplica tus ventas con
+  <div className="flex items-center justify-center gap-4 mt-2">
+    <span className="text-4xl lg:text-6xl font-bold text-blue-300">Meta Ads</span>
+    <img
+  src="/Meta2.png"
+  alt="Meta Logo"
+  className="h-10 w-auto mt-3"
+/>
   </div>
-</section>
+</h1>
 
+            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+              Publicidad estratégica que genera resultados. Más leads, más ventas, más crecimiento para tu negocio.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button size="lg" className="bg-white text-blue-900 hover:bg-blue-50 text-lg px-8" asChild>
+                <Link href="https://wa.me/5491123400821" target="_blank" rel="noopener noreferrer">
+                  Contactame
+                </Link>
+              </Button>
+             <Button
+  size="lg"
+  variant="outline"
+  className="border-blue-300 text-blue-100 hover:bg-blue-800/50 text-lg px-8 bg-transparent"
+  onClick={() => scrollToSection("clientes")}
+>
+  Ver Casos de Éxito
+</Button>
+
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Stats Section */}
       <section id="section-2" className="py-16 bg-transparent backdrop-blur-sm">
