@@ -220,12 +220,12 @@ const handleCloseModal = () => {
     {/* Clients Section */}
 <section id="clientes" className="py-24">
   <div className="container mx-auto text-center">
-    <h2 className="text-4xl font-bold text-white mb-6">Clientes</h2>
-    <p className="text-white/80 mb-12 text-lg">
-      Casos de éxito reales que demuestran el poder de una estrategia bien ejecutada
-    </p>
+    <h2 className="text-4xl font-bold text-white mb-2">Clientes</h2>
+<p className="text-white/80 mb-3 sm:mb-12 text-lg">
+  Casos de éxito reales que demuestran el poder de una estrategia bien ejecutada
+</p>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-2 sm:mt-8">
   {/* Testimonio 1 */}
   <div className="bg-white/10 backdrop-blur-md rounded-lg border border-white/30 p-4 sm:p-8 flex flex-col items-center max-w-xs sm:max-w-none mx-auto">
     <div className="flex items-center justify-center gap-3 sm:gap-4 mb-3 sm:mb-4">
@@ -279,15 +279,15 @@ const handleCloseModal = () => {
 
       {/* Services Section */}
       <section id="section-4" className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">Así llevo tu negocio al siguiente nivel:</h2>
-            <p className="text-blue-200 text-lg max-w-2xl mx-auto">
-              Mi método se basa en dos etapas clave para que tus campañas sean un éxito.
-            </p>
-          </div>
+  <div className="container mx-auto px-4">
+    <div className="text-center mb-3 sm:mb-16">
+      <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">Así llevo tu negocio al siguiente nivel:</h2>
+      <p className="text-blue-200 text-lg max-w-2xl mx-auto mb-2 sm:mb-8">
+        Mi método se basa en dos etapas clave para que tus campañas sean un éxito.
+      </p>
+    </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
   {/* Etapa 1 */}
   <Card className="bg-transparent border-white/30 border-2 backdrop-blur-sm max-w-xs sm:max-w-none mx-auto">
     <CardContent className="p-4 sm:p-6">
@@ -458,7 +458,7 @@ const handleCloseModal = () => {
       }
     }
   }}
-  className="fixed bottom-8 sm:bottom-6 right-16 z-50 animate-bounce"
+  className="fixed bottom-13 sm:bottom-6 right-16 z-50 animate-bounce"
 >
    <div className="bg-white/40 rounded-full p-3 sm:p-2 hover:bg-white/60 transition">
     <svg
