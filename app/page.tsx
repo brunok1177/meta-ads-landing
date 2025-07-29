@@ -220,7 +220,7 @@ const handleCloseModal = () => {
     {/* Clients Section */}
 <section id="clientes" className="py-24">
   <div className="container mx-auto text-center">
-    <h2 className="text-4xl font-bold text-white mb-4">Clientes</h2>
+    <h2 className="text-4xl font-bold text-white mb-3 sm:mb-4">Clientes</h2>
 <p className="text-lg text-blue-200 mb-6">
   Casos de éxito reales que demuestran el poder de una estrategia bien ejecutada
 </p>
@@ -280,8 +280,8 @@ const handleCloseModal = () => {
       <section id="section-4" className="py-20">
   <div className="container mx-auto px-4">
     <div className="text-center mb-3 sm:mb-16">
-      <h2 className="text-4xl font-bold text-white mb-4">Así llevo tu negocio al siguiente nivel:</h2>
-      <p className="text-lg text-blue-200 mb-6">
+      <h2 className="text-4xl font-bold text-white mb-2 sm:mb-4">Así llevo tu negocio al siguiente nivel:</h2>
+      <p className="text-lg text-blue-200 mb-2 sm:mb-4">
   Mi método se basa en dos etapas clave para que tus campañas sean un éxito.
 </p>
     </div>
