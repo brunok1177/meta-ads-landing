@@ -155,19 +155,19 @@ const handleCloseModal = () => {
       <section id="section-1" className="py-20 lg:py-32">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <Badge className="mb-6 bg-blue-700/50 text-blue-100 border-blue-600 text-lg">
-              Especialista en Publicidad
-            </Badge>
+            <Badge className="mb-6 bg-blue-700/50 text-blue-100 border-blue-600 text-base sm:text-lg">
+  Especialista en Publicidad
+</Badge>
 
-            <h1 className="text-4xl lg:text-6xl font-bold text-white mb-7 leading-tight text-center">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-7 leading-tight text-center">
   Multiplica tus ventas con
-  <div className="flex items-center justify-center gap-4 mt-2">
-    <span className="text-4xl lg:text-6xl font-bold text-blue-300">Meta Ads</span>
+  <div className="flex items-center justify-center gap-3 mt-2">
+    <span className="text-2xl sm:text-4xl lg:text-6xl font-bold text-blue-300">Meta Ads</span>
     <img
-  src="/Meta2.png"
-  alt="Meta Logo"
-  className="h-10 w-auto mt-3"
-/>
+      src="/Meta2.png"
+      alt="Meta Logo"
+      className="h-7 sm:h-10 w-auto mt-2 sm:mt-3"
+    />
   </div>
 </h1>
 
