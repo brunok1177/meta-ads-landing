@@ -280,8 +280,8 @@ const handleCloseModal = () => {
       <section id="section-4" className="py-20">
   <div className="container mx-auto px-4">
     <div className="text-center mb-3 sm:mb-16">
-      <h2 className="text-4xl font-bold text-white mb-6 sm:mb-4">Así llevo tu negocio al siguiente nivel:</h2>
-      <p className="text-lg text-blue-200 mb+40 sm:mb-4">
+      <h2 className="text-4xl font-bold text-white mb-4">Así llevo tu negocio al siguiente nivel:</h2>
+      <p className="text-lg text-blue-200 mb-2 sm:mb-4">
   Mi método se basa en dos etapas clave para que tus campañas sean un éxito.
 </p>
     </div>
