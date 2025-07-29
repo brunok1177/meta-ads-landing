@@ -161,13 +161,16 @@ const handleCloseModal = () => {
 
            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-7 leading-tight text-center">
   Multiplica tus ventas<br />
-  <span className="inline-flex items-center justify-center gap-1 sm:gap-3 mt-2">
-    con <span className="text-3xl sm:text-4xl lg:text-6xl font-bold text-blue-300 ml-2">Meta Ads</span>
-    <img
-      src="/Meta2.png"
-      alt="Meta Logo"
-      className="h-5 sm:h-7 lg:h-10 w-auto mt-1 sm:mt-3"
-    />
+  <span className="inline-flex items-center justify-center gap-x-1 sm:gap-x-3 mt-2">
+    con
+    <span className="text-3xl sm:text-4xl lg:text-6xl font-bold text-blue-300 ml-1 sm:ml-2">Meta Ads</span>
+    <span className="ml-4 sm:ml-3">
+      <img
+        src="/Meta2.png"
+        alt="Meta Logo"
+        className="h-5 sm:h-7 lg:h-10 w-auto mt-1 sm:mt-3"
+      />
+    </span>
   </span>
 </h1>
 
@@ -442,14 +445,11 @@ const handleCloseModal = () => {
           let scrollTo;
 
           if (sectionHeight < viewportHeight) {
-            // Sección más chica que la pantalla → dejar margen de 100px arriba
             scrollTo = offsetTop - 100;
           } else {
-            // Sección más alta → centrar
             scrollTo = offsetTop - (viewportHeight / 2) + (sectionHeight / 2);
           }
 
-          // Ajuste para no salir del documento
           const maxScroll = document.body.scrollHeight - viewportHeight;
           if (scrollTo > maxScroll) scrollTo = maxScroll;
           if (scrollTo < 0) scrollTo = 0;
@@ -463,12 +463,12 @@ const handleCloseModal = () => {
       }
     }
   }}
-  className="fixed bottom-6 right-16 z-50 animate-bounce"
+  className="fixed bottom-20 sm:bottom-6 right-16 z-50 animate-bounce"
 >
-  <div className="bg-white/40 rounded-full p-2 hover:bg-white/60 transition">
+  <div className="bg-white/40 rounded-full p-3 sm:p-2 hover:bg-white/60 transition">
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-6 w-6 text-white"
+      className="h-8 w-8 sm:h-6 sm:w-6 text-white"
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
