@@ -159,16 +159,16 @@ const handleCloseModal = () => {
   Especialista en Publicidad
 </Badge>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-7 leading-tight text-center">
-  Multiplica tus ventas<br />con
-  <div className="flex items-center justify-center gap-3 mt-2">
-    <span className="text-3xl sm:text-4xl lg:text-6xl font-bold text-blue-300">Meta Ads</span>
+           <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-7 leading-tight text-center">
+  Multiplica tus ventas<br />
+  <span className="inline-flex items-center justify-center gap-3 mt-2">
+    con <span className="text-3xl sm:text-4xl lg:text-6xl font-bold text-blue-300 ml-2">Meta Ads</span>
     <img
       src="/Meta2.png"
       alt="Meta Logo"
       className="h-5 sm:h-7 lg:h-10 w-auto mt-1 sm:mt-3"
     />
-  </div>
+  </span>
 </h1>
 
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
