@@ -162,16 +162,16 @@ const handleCloseModal = () => {
            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-7 leading-tight text-center">
   Multiplica tus ventas<br />
   <span className="inline-flex items-center justify-center gap-x-1 sm:gap-x-3 mt-2">
-    con
-    <span className="text-3xl sm:text-4xl lg:text-6xl font-bold text-blue-300 ml-1 sm:ml-2">Meta Ads</span>
-    <span className="ml-4 sm:ml-3">
-      <img
-        src="/Meta2.png"
-        alt="Meta Logo"
-        className="h-5 sm:h-7 lg:h-10 w-auto mt-1 sm:mt-3"
-      />
-    </span>
+  con
+  <span className="text-3xl sm:text-4xl lg:text-6xl font-bold text-blue-300 ml-1 sm:ml-2">Meta Ads</span>
+  <span className="ml-2 sm:ml-2">
+    <img
+      src="/Meta2.png"
+      alt="Meta Logo"
+      className="h-5 sm:h-7 lg:h-10 w-auto mt-1 sm:mt-3"
+    />
   </span>
+</span>
 </h1>
 
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
@@ -226,52 +226,52 @@ const handleCloseModal = () => {
     </p>
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-      {/* Testimonio 1 */}
-      <div className="bg-white/10 backdrop-blur-md rounded-lg border border-white/30 p-8 flex flex-col items-center">
-        <div className="flex items-center justify-center gap-4 mb-4">
-          <img
-            src="/Jhoel.png"
-            alt="Jhoel"
-            className="w-24 h-24 rounded-full object-cover border border-white"
-          />
-          <div className="text-left">
-            <div className="flex items-center gap-2 mb-1">
-              <p className="text-white font-semibold text-xl">Jhoel</p>
-              <span className="text-yellow-400 text-lg">★★★★★</span>
-            </div>
-            <p className="text-white/80">Mentor de Comunicación</p>
-            <p className="text-white/60 text-sm">ROAS: 4.2x | Ventas: +180%</p>
-          </div>
+  {/* Testimonio 1 */}
+  <div className="bg-white/10 backdrop-blur-md rounded-lg border border-white/30 p-4 sm:p-8 flex flex-col items-center max-w-xs sm:max-w-none mx-auto">
+    <div className="flex items-center justify-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+      <img
+        src="/Jhoel.png"
+        alt="Jhoel"
+        className="w-16 h-16 sm:w-24 sm:h-24 rounded-full object-cover border border-white"
+      />
+      <div className="text-left">
+        <div className="flex items-center gap-1 sm:gap-2 mb-1">
+          <p className="text-white font-semibold text-base sm:text-xl">Jhoel</p>
+          <span className="text-yellow-400 text-base sm:text-lg">★★★★★</span>
         </div>
-        <hr className="border-white/30 w-full my-4" />
-        <p className="text-white text-lg leading-relaxed text-center">
-          "La verdad que los resultados fueron muy positivos. Antes dependía del boca a boca y me costaba conseguir alumnos para mis mentorías. Bruno me ayudó a crear campañas en Meta Ads que atraen personas interesadas todos los meses. Hoy tengo un flujo constante de leads y cierro ventas cada mes."
-        </p>
-      </div>
-
-      {/* Testimonio 2 */}
-      <div className="bg-white/10 backdrop-blur-md rounded-lg border border-white/30 p-8 flex flex-col items-center">
-        <div className="flex items-center justify-center gap-4 mb-4">
-          <img
-            src="/MerchingStore.jpg"
-            alt="Merching Store"
-            className="w-24 h-24 rounded-full object-cover border border-white"
-          />
-          <div className="text-left">
-            <div className="flex items-center gap-2 mb-1">
-              <p className="text-white font-semibold text-xl">Merching Store</p>
-              <span className="text-yellow-400 text-lg">★★★★★</span>
-            </div>
-            <p className="text-white/80">Importadora Mayorista</p>
-            <p className="text-white/60 text-sm">ROAS: 3.5x | Ventas: +95%</p>
-          </div>
-        </div>
-        <hr className="border-white/30 w-full my-4" />
-        <p className="text-white text-lg leading-relaxed text-center">
-          "Nuestro negocio se movía solo con clientes habituales y referidos. Con la estrategia de Bruno logramos llegar a más distribuidores en todo el país. Las campañas nos están trayendo clientes nuevos cada semana. Muy contentos con los resultados."
-        </p>
+        <p className="text-white/80 text-xs sm:text-base">Mentor de Comunicación</p>
+        <p className="text-white/60 text-xs sm:text-sm">ROAS: 4.2x | Ventas: +180%</p>
       </div>
     </div>
+    <hr className="border-white/30 w-full my-2 sm:my-4" />
+    <p className="text-white text-base sm:text-lg leading-relaxed text-center">
+      "La verdad que los resultados fueron muy positivos. Antes dependía del boca a boca y me costaba conseguir alumnos para mis mentorías. Bruno me ayudó a crear campañas en Meta Ads que atraen personas interesadas todos los meses. Hoy tengo un flujo constante de leads y cierro ventas cada mes."
+    </p>
+  </div>
+
+  {/* Testimonio 2 */}
+  <div className="bg-white/10 backdrop-blur-md rounded-lg border border-white/30 p-4 sm:p-8 flex flex-col items-center max-w-xs sm:max-w-none mx-auto">
+    <div className="flex items-center justify-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+      <img
+        src="/MerchingStore.jpg"
+        alt="Merching Store"
+        className="w-16 h-16 sm:w-24 sm:h-24 rounded-full object-cover border border-white"
+      />
+      <div className="text-left">
+        <div className="flex items-center gap-1 sm:gap-2 mb-1">
+          <p className="text-white font-semibold text-base sm:text-xl">Merching Store</p>
+          <span className="text-yellow-400 text-base sm:text-lg">★★★★★</span>
+        </div>
+        <p className="text-white/80 text-xs sm:text-base">Importadora Mayorista</p>
+        <p className="text-white/60 text-xs sm:text-sm">ROAS: 3.5x | Ventas: +95%</p>
+      </div>
+    </div>
+    <hr className="border-white/30 w-full my-2 sm:my-4" />
+    <p className="text-white text-base sm:text-lg leading-relaxed text-center">
+      "Nuestro negocio se movía solo con clientes habituales y referidos. Con la estrategia de Bruno logramos llegar a más distribuidores en todo el país. Las campañas nos están trayendo clientes nuevos cada semana. Muy contentos con los resultados."
+    </p>
+  </div>
+</div>
   </div>
 </section>
 
@@ -465,7 +465,7 @@ const handleCloseModal = () => {
   }}
   className="fixed bottom-20 sm:bottom-6 right-16 z-50 animate-bounce"
 >
-  <div className="bg-white/40 rounded-full p-3 sm:p-2 hover:bg-white/60 transition">
+   <div className="bg-white/40 rounded-full p-3 sm:p-2 hover:bg-white/60 transition">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="h-8 w-8 sm:h-6 sm:w-6 text-white"
