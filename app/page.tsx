@@ -288,101 +288,96 @@ const handleCloseModal = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            {/* Etapa 1 */}
-            <Card className="bg-transparent border-white/30 border-2 backdrop-blur-sm">
-              <CardContent className="p-6">
-                <div className="flex items-center mb-6">
-                  <div className="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mr-4">
-                    1
-                  </div>
-                  <h3 className="text-xl font-semibold text-white">Etapa 1: Optimización de Marca</h3>
-                </div>
-
-                <div className="space-y-6">
-                  <div className="flex items-start space-x-4">
-                    <Target className="h-6 w-6 text-blue-300 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="text-base font-semibold text-white mb-2">
-                        Trabajo sobre el branding de la marca para generar confianza
-                      </h4>
-                      <p className="text-blue-200"></p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start space-x-4">
-                    <Users className="h-6 w-6 text-blue-300 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="text-base font-semibold text-white mb-2">
-                        Estrategias de contenido orientadas a la conexión con la audiencia
-                      </h4>
-                      <p className="text-blue-200"></p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start space-x-4">
-                    <TrendingUp className="h-6 w-6 text-blue-300 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="text-base font-semibold text-white mb-2">
-                        Preparación de la marca para escalar con campañas publicitarias
-                      </h4>
-                      <p className="text-blue-200"></p>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Etapa 2 */}
-            <Card className="bg-transparent border-white/30 border-2 backdrop-blur-sm">
-              <CardContent className="p-6">
-                <div className="flex items-center mb-6">
-                  <div className="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mr-4">
-                    2
-                  </div>
-                  <h3 className="text-xl font-semibold text-white">Etapa 2: Publicidad en Meta</h3>
-                </div>
-
-                <div className="space-y-6">
-                  <div className="flex items-start space-x-4">
-                    <BarChart3 className="h-6 w-6 text-blue-300 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="text-base font-semibold text-white mb-2">
-                        Análisis del nicho y la competencia para identificar oportunidades
-                      </h4>
-                      <p className="text-blue-200"></p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start space-x-4">
-                    <Target className="h-6 w-6 text-blue-300 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="text-base font-semibold text-white mb-2">
-                        Planificación publicitaria basada en el 'Ciclo de venta PECA'
-                      </h4>
-                      <p className="text-blue-200"></p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start space-x-4">
-                    <BarChart3 className="h-6 w-6 text-blue-300 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="text-base font-semibold text-white mb-2">Reportes semanales con métricas clave</h4>
-                      <p className="text-blue-200"></p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start space-x-4">
-                    <TrendingUp className="h-6 w-6 text-blue-300 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="text-base font-semibold text-white mb-2">
-                        Optimización diaria para maximizar el retorno de inversión (ROI)
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+  {/* Etapa 1 */}
+  <Card className="bg-transparent border-white/30 border-2 backdrop-blur-sm max-w-xs sm:max-w-none mx-auto">
+    <CardContent className="p-4 sm:p-6">
+      <div className="flex items-center mb-4 sm:mb-6">
+        <div className="bg-blue-600 text-white rounded-full w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center text-lg sm:text-xl font-bold mr-3 sm:mr-4">
+          1
+        </div>
+        <h3 className="text-lg sm:text-xl font-semibold text-white">Etapa 1: Optimización de Marca</h3>
+      </div>
+      <div className="space-y-4 sm:space-y-6">
+        <div className="flex items-start space-x-2 sm:space-x-4">
+          <Target className="h-5 w-5 sm:h-6 sm:w-6 text-blue-300 mt-1 flex-shrink-0" />
+          <div>
+            <h4 className="text-sm sm:text-base font-semibold text-white mb-1 sm:mb-2">
+              Trabajo sobre el branding de la marca para generar confianza
+            </h4>
+            <p className="text-blue-200"></p>
           </div>
+        </div>
+        <div className="flex items-start space-x-2 sm:space-x-4">
+          <Users className="h-5 w-5 sm:h-6 sm:w-6 text-blue-300 mt-1 flex-shrink-0" />
+          <div>
+            <h4 className="text-sm sm:text-base font-semibold text-white mb-1 sm:mb-2">
+              Estrategias de contenido orientadas a la conexión con la audiencia
+            </h4>
+            <p className="text-blue-200"></p>
+          </div>
+        </div>
+        <div className="flex items-start space-x-2 sm:space-x-4">
+          <TrendingUp className="h-5 w-5 sm:h-6 sm:w-6 text-blue-300 mt-1 flex-shrink-0" />
+          <div>
+            <h4 className="text-sm sm:text-base font-semibold text-white mb-1 sm:mb-2">
+              Preparación de la marca para escalar con campañas publicitarias
+            </h4>
+            <p className="text-blue-200"></p>
+          </div>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  {/* Etapa 2 */}
+  <Card className="bg-transparent border-white/30 border-2 backdrop-blur-sm max-w-xs sm:max-w-none mx-auto">
+    <CardContent className="p-4 sm:p-6">
+      <div className="flex items-center mb-4 sm:mb-6">
+        <div className="bg-blue-600 text-white rounded-full w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center text-lg sm:text-xl font-bold mr-3 sm:mr-4">
+          2
+        </div>
+        <h3 className="text-lg sm:text-xl font-semibold text-white">Etapa 2: Publicidad en Meta</h3>
+      </div>
+      <div className="space-y-4 sm:space-y-6">
+        <div className="flex items-start space-x-2 sm:space-x-4">
+          <BarChart3 className="h-5 w-5 sm:h-6 sm:w-6 text-blue-300 mt-1 flex-shrink-0" />
+          <div>
+            <h4 className="text-sm sm:text-base font-semibold text-white mb-1 sm:mb-2">
+              Análisis del nicho y la competencia para identificar oportunidades
+            </h4>
+            <p className="text-blue-200"></p>
+          </div>
+        </div>
+        <div className="flex items-start space-x-2 sm:space-x-4">
+          <Target className="h-5 w-5 sm:h-6 sm:w-6 text-blue-300 mt-1 flex-shrink-0" />
+          <div>
+            <h4 className="text-sm sm:text-base font-semibold text-white mb-1 sm:mb-2">
+              Planificación publicitaria basada en el 'Ciclo de venta PECA'
+            </h4>
+            <p className="text-blue-200"></p>
+          </div>
+        </div>
+        <div className="flex items-start space-x-2 sm:space-x-4">
+          <BarChart3 className="h-5 w-5 sm:h-6 sm:w-6 text-blue-300 mt-1 flex-shrink-0" />
+          <div>
+            <h4 className="text-sm sm:text-base font-semibold text-white mb-1 sm:mb-2">
+              Reportes semanales con métricas clave
+            </h4>
+            <p className="text-blue-200"></p>
+          </div>
+        </div>
+        <div className="flex items-start space-x-2 sm:space-x-4">
+          <TrendingUp className="h-5 w-5 sm:h-6 sm:w-6 text-blue-300 mt-1 flex-shrink-0" />
+          <div>
+            <h4 className="text-sm sm:text-base font-semibold text-white mb-1 sm:mb-2">
+              Optimización diaria para maximizar el retorno de inversión (ROI)
+            </h4>
+          </div>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</div>
         </div>
       </section>
 
@@ -463,7 +458,7 @@ const handleCloseModal = () => {
       }
     }
   }}
-  className="fixed bottom-20 sm:bottom-6 right-16 z-50 animate-bounce"
+  className="fixed bottom-8 sm:bottom-6 right-16 z-50 animate-bounce"
 >
    <div className="bg-white/40 rounded-full p-3 sm:p-2 hover:bg-white/60 transition">
     <svg
