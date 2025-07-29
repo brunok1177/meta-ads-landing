@@ -224,7 +224,7 @@ const handleCloseModal = () => {
 <p className="text-lg text-blue-200 mb-6">
   Casos de éxito reales que demuestran el poder de una estrategia bien ejecutada
 </p>
-<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4 sm:mt-8">
+<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6 sm:mt-4">
   {/* Testimonio 1 */}
   <div className="bg-white/10 backdrop-blur-md rounded-lg border border-white/30 p-4 sm:p-8 flex flex-col items-center max-w-xs sm:max-w-none mx-auto">
     <div className="flex items-center justify-center gap-3 sm:gap-4 mb-3 sm:mb-4">
