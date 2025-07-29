@@ -286,7 +286,7 @@ const handleCloseModal = () => {
 </p>
     </div>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mt-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mt-0">
   {/* Etapa 1 */}
   <Card className="bg-transparent border-white/30 border-2 backdrop-blur-sm max-w-xs sm:max-w-none mx-auto">
     <CardContent className="p-4 sm:p-6">
