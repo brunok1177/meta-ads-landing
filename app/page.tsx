@@ -161,8 +161,8 @@ const handleCloseModal = () => {
 
             <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-7 leading-tight text-center">
   Multiplica tus ventas con
-  <div className="flex items-center justify-center gap-3 mt-2">
-  <span className="text-2xl sm:text-4xl lg:text-6xl font-bold text-blue-300">Meta Ads</span>
+<div className="flex items-center justify-center gap-3 mt-2">
+  <span className="text-3xl sm:text-4xl lg:text-6xl font-bold text-blue-300">Meta Ads</span>
   <img
     src="/Meta2.png"
     alt="Meta Logo"
